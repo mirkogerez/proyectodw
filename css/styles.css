@@ -236,22 +236,23 @@ form button:hover {
     margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
-    .card {
-        flex: 1 1 calc(50% - 40px);
-    }
-}
-
 @media (max-width: 480px) {
-    nav {
-        flex-direction: column;
-    }
-
     .card {
         flex: 1 1 100%;
     }
-}
-
-@media (max-width: 480px) {
-    
+    nav {
+        display: none;
+        flex-direction: column;
+    }
+    nav.active {
+        display: flex;
+        max-height: 300px; 
+    }
+    .branch-card {
+        width: 50%;
+    }
+    .maps {
+        width: 350px;   
+        height: 350px;
+    }
 }

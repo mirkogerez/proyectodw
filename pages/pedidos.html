@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburguesería Deliciosa</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+<header>
+    <h1>The Best Burgas</h1>
+    <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="menu.html">Menú</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="sucursales.html">Sucursales</a>
+        <a href="pedidos.html">Pedidos</a>
+    </nav>
+</header>
+<main>
+    <div class="order-container">
+        <h2>Formulario de Pedido</h2>
+        <form action="procesar_pedido.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="direccion">Dirección de Entrega:</label>
+            <input type="text" id="direccion" name="direccion" required>
+            
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="pedido">Detalle del Pedido:</label>
+            <textarea id="pedido" name="pedido" rows="5" required></textarea>
+            
+            <button type="submit">Enviar Pedido</button>
+        </form>
+    </div>
+    
+</main>
+<footer>
+    <p>&copy; 2024 Hamburguesería Deliciosa. Todos los derechos reservados.</p>
+</footer>
+</body>
+</html>

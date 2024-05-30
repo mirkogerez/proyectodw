@@ -17,18 +17,6 @@ header {
     z-index: 1000;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    background-color: #444;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    top: 80px;
-    left: 0;
-    z-index: 999;
-}
-
 nav a {
     color: #fff;
     text-decoration: none;

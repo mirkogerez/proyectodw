@@ -230,7 +230,7 @@ form button:hover {
     }
     nav {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
     .branch-card {
         width: 50%;

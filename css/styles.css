@@ -241,12 +241,8 @@ form button:hover {
         flex: 1 1 100%;
     }
     nav {
-        display: none;
-        flex-direction: column;
-    }
-    nav.active {
         display: flex;
-        max-height: 300px; 
+        flex-direction: column;
     }
     .branch-card {
         width: 50%;
